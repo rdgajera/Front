@@ -5,7 +5,7 @@ import { Observable } from 'rxjs';
 import { BlogPost } from './BlogPost';
 
 const perPage = 6;
-const serverURL = `https://phase2node.herokuapp.com/`;
+const serverURL = `https://phase2node.herokuapp.com/api`;
 
 @Injectable({
   providedIn: 'root',
